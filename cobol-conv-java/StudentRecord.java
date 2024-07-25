@@ -4,7 +4,7 @@ import java.io.IOException;
 import java.util.Scanner;
 
 public class StudentRecord {
-    private static final String FILE_PATH = "/Users/takuhara-alt/Desktop/meike-it/cobol/covol-conv-java/students.txt";
+    private static final String FILE_PATH = "/Users/takuhara-alt/Desktop/meike-it/cobol/cobol-conv-java/students.txt";
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
