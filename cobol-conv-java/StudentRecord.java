@@ -12,7 +12,7 @@ public class StudentRecord {
 
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(FILE_PATH, true))) {
             while (!eof) {
-                System.out.print("学籍番号を入力してください。(終了するにはendと入力してください): ");
+                System.out.print("学籍番号を入力してください。(全て入力してendと入力してください): ");
                 String studentId = scanner.nextLine();
                 
                 if ("end".equalsIgnoreCase(studentId)) {
