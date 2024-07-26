@@ -15,6 +15,7 @@ public class StudentRecord {
                 System.out.print("学籍番号を入力してください。(全て入力してから完了と入力してください): ");
                 String studentId = scanner.nextLine();
                 
+
                 if ("完了".equalsIgnoreCase(studentId)) {
                     eof = true;
                 } else {
