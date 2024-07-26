@@ -9,13 +9,13 @@ public class StudentRecord {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         boolean eof = false;
-            
+
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(FILE_PATH, true))) {
             while (!eof) {
-                System.out.print("学籍番号を入力してください。(全て入力してからendと入力してください): ");
+                System.out.print("学籍番号を入力してください。(全て入力してから完了と入力してください): ");
                 String studentId = scanner.nextLine();
                 
-                if ("end".equalsIgnoreCase(studentId)) {
+                if ("完了".equalsIgnoreCase(studentId)) {
                     eof = true;
                 } else {
                     System.out.print("名前を入力してください。: ");
