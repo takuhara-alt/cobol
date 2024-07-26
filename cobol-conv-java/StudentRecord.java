@@ -9,7 +9,7 @@ public class StudentRecord {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         boolean eof = false;
-
+            
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(FILE_PATH, true))) {
             while (!eof) {
                 System.out.print("学籍番号を入力してください。(全て入力してからendと入力してください): ");
